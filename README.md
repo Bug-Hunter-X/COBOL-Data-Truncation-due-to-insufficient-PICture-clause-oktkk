@@ -1,0 +1,1 @@
+This repository demonstrates a common COBOL error involving data truncation. The `bug.cob` file contains code that attempts to move a value into a field with an insufficient PICture clause. This leads to data loss. The `bugSolution.cob` file shows how to correct this by adjusting the PICture clause to accommodate the larger value.
